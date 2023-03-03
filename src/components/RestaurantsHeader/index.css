@@ -1,20 +1,39 @@
+.restaurants-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.restaurants-heading {
+  font-size: 30px;
+  color: #183b56;
+}
+.choose-description {
+  font-size: 16px;
+  color: #64748b;
+  font-weight: 500;
+}
 .sort-by-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 500;
+  color: #475569;
 }
-.restaurants-header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 50px;
+.sort-by-icon {
+  height: 35px;
+  width: 30px;
 }
-.restaurants-heading {
-  font-size: 20px;
-}
-.sort-by {
+.sort-by-select {
   font-size: 15px;
+  color: blueviolet;
+  font-weight: 500px;
+  border: none;
+  font-weight: 600;
 }
-.choose-description {
-  font-size: 12px;
+.select-option {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 400px;
 }

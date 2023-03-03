@@ -1,20 +1,18 @@
 .nav-bar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #f8fafc;
-}
-.nav-logo {
-  height: 40px;
-  width: 50px;
+  width: 100%;
 }
 .logo-container {
   display: flex;
   align-items: center;
 }
-.options-container {
-  display: flex;
-  align-items: center;
+.nav-logo {
+  height: 40px;
+  width: 50px;
+  margin-right: 20px;
 }
 .nav-title {
   font-family: DM Sans;
@@ -25,29 +23,31 @@
   color: #f7931e;
   text-decoration: none;
 }
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 250px;
+}
+
 .nav-title-link {
   text-decoration: none;
 }
-.nav-menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  margin-right: 5px;
-}
+
 .logout-btn {
   font-family: 'Roboto';
   font-weight: bold;
   font-size: 12px;
   color: #ffffff;
   height: 30px;
-  width: 70%;
+  width: 90px;
   background-color: #f7931e;
-  border-radius: 8px;
+  border-radius: 4px;
   border: none;
   cursor: pointer;
 }
 .nav-link {
   color: #f7931e;
   text-decoration: none;
-  margin-right: 5px;
 }

@@ -119,18 +119,18 @@ class PopularRestaurantsSection extends Component {
         <div className="pagination-container">
           <button
             className="previous"
-            testid="pagination-left-button"
+            data-testid="pagination-left-button"
             onClick={this.onClickLeft}
             type="button"
           >
             {leftArrow}
           </button>
-          <p className="page" testid="active-page-number">
+          <p className="page" data-testid="active-page-number">
             {activePage}
           </p>
           <button
             className="next"
-            testid="pagination-right-button"
+            data-testid="pagination-right-button"
             onClick={this.onClickRight}
             type="button"
           >
@@ -143,7 +143,7 @@ class PopularRestaurantsSection extends Component {
 
   renderLoader = () => (
     <div
-      testid="restaurants-list-loader"
+      data-testid="restaurants-list-loader"
       className="restaurants-loader-container"
     >
       <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />

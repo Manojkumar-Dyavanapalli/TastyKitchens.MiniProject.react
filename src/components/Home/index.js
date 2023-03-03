@@ -37,10 +37,7 @@ class Home extends Component {
   }
 
   renderLoadingView = () => (
-    <div
-      testid="restaurants-offers-loader"
-      className="products-loader-container"
-    >
+    <div data-testid="restaurants-offers-loader" className="loader">
       <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </div>
   )
@@ -51,7 +48,7 @@ class Home extends Component {
     }
     const {carouselImagesData, isLoading} = this.state
     return (
-      <>
+      <div className="home-container">
         <Header />
         <ul className="carousel-container">
           <Slider {...settings}>
@@ -64,7 +61,7 @@ class Home extends Component {
         </ul>
         <PopularRestaurantsSection />
         <Footer />
-      </>
+      </div>
     )
   }
 }

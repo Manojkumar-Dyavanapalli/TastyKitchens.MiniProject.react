@@ -60,7 +60,7 @@ class LoginForm extends Component {
         <input
           type="password"
           id="password"
-          className="password-input-field"
+          className="username-input-field"
           value={password}
           onChange={this.onChangePassword}
         />
@@ -97,13 +97,17 @@ class LoginForm extends Component {
         <form className="form-container" onSubmit={this.submitForm}>
           <img
             src="https://i.postimg.cc/Nj9NVwWd/Group-7420hat.png"
-            className="login-website-logo-desktop-image"
+            className="login-website-logo-image"
             alt="website logo"
           />
           <h1 className="form-heading">Tasty Kitchens</h1>
+
           <h1 className="login-heading">Login</h1>
-          <div className="input-container">{this.renderUsernameField()}</div>
-          <div className="input-container">{this.renderPasswordField()}</div>
+          <div>
+            {this.renderUsernameField()}
+            {this.renderPasswordField()}
+          </div>
+
           <button type="submit" className="login-button">
             Login
           </button>

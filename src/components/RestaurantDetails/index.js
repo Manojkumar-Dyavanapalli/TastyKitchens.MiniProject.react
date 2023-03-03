@@ -73,7 +73,7 @@ class RestaurantDetails extends Component {
 
     return (
       <div>
-        <ul className="banner-section" testid="restaurant-item">
+        <ul className="banner-section" data-testid="restaurant-item">
           <div className="banner-card">
             <img src={imageUrl} className="banner-image" alt="restaurant" />
             <div className="details-section">
@@ -81,13 +81,14 @@ class RestaurantDetails extends Component {
               <p className="cuisine">{cuisine}</p>
               <p className="location">{location}</p>
               <div className="rating-cost-section">
-                <div className="rating-container">
+                <div>
                   <div className="rating-section">
                     <BsFillStarFill className="star" />
                     <p className="rating">{rating}</p>
                   </div>
                   <p className="reviews">{reviewsCount} ratings</p>
                 </div>
+                <hr className="hr" />
                 <div className="cost-for-two-section">
                   <p className="cost-for-two">${costForTwo}</p>
                   <p className="cost-for-two">Cost for two</p>
@@ -108,10 +109,7 @@ class RestaurantDetails extends Component {
   }
 
   renderLoader = () => (
-    <div
-      testid="restaurant-details-loader"
-      className="restaurant-loader-container"
-    >
+    <div data-testid="restaurant-details-loader" className="loader">
       <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </div>
   )

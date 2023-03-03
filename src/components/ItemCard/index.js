@@ -47,7 +47,7 @@ class ItemCard extends Component {
         }
 
         return (
-          <li className="item-card" testid="foodItem">
+          <li className="item-card" data-testid="foodItem">
             <div className="image-container">
               <img src={imageUrl} alt="item" className="item-image" />
             </div>

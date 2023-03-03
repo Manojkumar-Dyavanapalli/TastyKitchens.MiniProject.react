@@ -1,6 +1,10 @@
 .footer-container {
   background-color: #0f172a;
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
 }
 .logo-container {
   display: flex;
@@ -21,7 +25,7 @@
 }
 .footer-text {
   color: #ffffff;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 }
 .icons-container {

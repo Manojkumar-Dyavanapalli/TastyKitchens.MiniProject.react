@@ -27,7 +27,7 @@ const CartListView = () => (
           <hr />
           <div className="order-total">
             <h1 className="order">Order Total:</h1>
-            <p className="total" testid="total-price">
+            <p className="total" data-testid="total-price">
               {total}
             </p>
           </div>

@@ -13,8 +13,8 @@ const Header = props => {
 
   return (
     <div className="nav-bar">
-      <div className="logo-container">
-        <Link to="/" className="nav-title-link">
+      <Link to="/" className="nav-title-link">
+        <div className="logo-container">
           <img
             src="https://i.postimg.cc/Nj9NVwWd/Group-7420hat.png"
             alt="website logo"
@@ -22,25 +22,25 @@ const Header = props => {
           />
 
           <h1 className="nav-title">Tasty Kitchens</h1>
-        </Link>
-      </div>
-      <div className="options-container">
-        <ul className="nav-menu">
-          <li>
-            <Link to="/" className="nav-link">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/cart" className="nav-link">
-              Cart
-            </Link>
-          </li>
-        </ul>
+        </div>
+      </Link>
+
+      <ul className="nav-menu">
+        <li>
+          <Link to="/" className="nav-link">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="/cart" className="nav-link">
+            Cart
+          </Link>
+        </li>
+
         <button type="button" className="logout-btn" onClick={onClickLogout}>
           Logout
         </button>
-      </div>
+      </ul>
     </div>
   )
 }

@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   background-color: #333333;
-  padding: 15px;
+  padding: 35px;
   color: #ffffff;
 }
 .banner-card {
@@ -11,9 +11,10 @@
   align-items: center;
 }
 .banner-image {
-  height: 280px;
-  width: 450px;
+  height: 350px;
+  width: 500px;
   border-radius: 5px;
+  margin-right: 30px;
 }
 .details-section {
   display: flex;
@@ -22,7 +23,7 @@
   margin-left: 10px;
 }
 .name {
-  font-size: 20px;
+  font-size: 30px;
 }
 .rating-cost-section {
   display: flex;
@@ -32,32 +33,27 @@
   display: flex;
   align-items: center;
 }
-.rating-container {
-  display: flex;
-  flex-direction: column;
-  font-size: 11px;
-}
+
 .start {
   height: 11px;
 }
 .reviews {
-  font-size: 11px;
+  font-size: 16px;
 }
 .cost-for-two {
-  font-size: 11px;
-  margin-top: 20px;
+  font-size: 16px;
 }
 .cost-for-two-section {
   margin-left: 20px;
 }
 .location {
-  font-size: 12px;
+  font-size: 16px;
 }
 .cuisine {
-  font-size: 11px;
+  font-size: 18px;
 }
 .rating {
-  font-size: 12px;
+  font-size: 16px;
 }
 .items-section {
   padding: 50px;
@@ -65,6 +61,14 @@
 .items-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+
   flex-wrap: wrap;
+}
+.loader {
+  margin-left: 50%;
+}
+.hr {
+  height: 60px;
+  margin: 14px;
 }
