@@ -1,0 +1,29 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  height: 90vh;
+}
+.not-found-image {
+  height: 300px;
+  width: 250px;
+}
+.button {
+  background-color: #f7931e;
+  padding: 12px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 500;
+  height: 40px;
+  width: 100px;
+  border: none;
+}
+.heading {
+  color: #1e293b;
+}
+.error-msg {
+  color: #475569;
+  font-size: 20px;
+}

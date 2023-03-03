@@ -11,13 +11,15 @@ const NotFound = () => (
         className="not-found-image"
         alt="not found"
       />
-      <h1>Page Not Found</h1>
-      <p>
-        we are sorry, the page you requested could not be found Please go back
+      <h1 className="heading">Page Not Found</h1>
+      <p className="error-msg">
+        we are sorry, the page you requested could not be found.Please go back
         to the homepage
       </p>
       <Link to="/">
-        <button type="button">Home Page</button>
+        <button type="button" className="button">
+          Home Page
+        </button>
       </Link>
     </div>
   </div>
