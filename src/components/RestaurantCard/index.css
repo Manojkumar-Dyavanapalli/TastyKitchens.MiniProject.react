@@ -10,25 +10,51 @@
   font-family: 'Roboto';
   margin-right: 20px;
 }
+@media screen and (max-width: 768px) {
+  .restaurant-item {
+    height: 100px;
+    width: 350px;
+    margin-bottom: 80px;
+
+    margin-right: 10px;
+  }
+}
 .restaurant-logo {
   width: 160px;
   height: 160px;
   border-radius: 4px;
   margin-right: 8px;
 }
+@media screen and (max-width: 768px) {
+  .restaurant-logo {
+    width: 150px;
+    height: 170px;
+    margin-bottom: 25px;
+  }
+}
 .restaurant-title {
   font-family: DM Sans;
   font-weight: bold;
   font-size: 15px;
-  line-height: 24px;
   color: #334155;
+}
+@media screen and (max-width: 768px) {
+  .restaurant-title {
+    font-size: 12px;
+  }
 }
 .rating-container {
   display: flex;
+  align-items: center;
 }
 .cuisine {
   font-size: 14px;
   font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .cuisine {
+    font-size: 10px;
+  }
 }
 .rating {
   font-size: 14px;
@@ -43,4 +69,9 @@
   font-size: 12px;
   font-weight: 500;
   color: #334155;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }

@@ -17,7 +17,7 @@ const NotFound = () => (
         to the homepage
       </p>
       <Link to="/">
-        <button type="button" className="button">
+        <button type="button" className="home-page-btn">
           Home Page
         </button>
       </Link>

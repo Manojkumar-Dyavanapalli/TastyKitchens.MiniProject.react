@@ -10,15 +10,20 @@
   margin-right: 150px;
   border-width: 1px;
 }
+@media screen and (max-width: 768px) {
+  .cart-list {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 .order {
   font-weight: 400;
   color: #3e4c59;
 }
 .place-order {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 250px;
-  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
 }
 .place-order-btn {
   background-color: #f7931e;
@@ -27,6 +32,7 @@
   height: 40px;
   width: 90px;
   border-style: none;
+  margin-bottom: 15px;
 }
 .total {
   font-weight: 500;

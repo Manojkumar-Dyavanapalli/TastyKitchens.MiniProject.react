@@ -11,10 +11,10 @@ const RestaurantCard = props => {
     <Link to={`/restaurant/${id}`} className="restaurant-link">
       <li className="restaurant-item" data-testid="restaurant-item">
         <img src={imageUrl} alt="restaurant logo" className="restaurant-logo" />
-        <div>
+        <div className="details">
           <h1 className="restaurant-title">{name}</h1>
           <h1 className="total-reviews-count">{totalReviews}</h1>
-          <p className="cuisine">{cuisine}</p>
+          <p>{cuisine}</p>
           <div className="rating-container">
             <BsFillStarFill className="star" />
             <p className="rating">{rating}</p>

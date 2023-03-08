@@ -4,15 +4,34 @@
   align-items: center;
   margin-top: 50px;
   width: 100%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+@media screen and (max-width: 768px) {
+  .restaurants-header {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }
 .restaurants-heading {
   font-size: 30px;
   color: #183b56;
 }
+@media screen and (max-width: 768px) {
+  .restaurants-heading {
+    font-size: 20px;
+  }
+}
 .choose-description {
   font-size: 16px;
   color: #64748b;
   font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .choose-description {
+    font-size: 12px;
+  }
 }
 .sort-by-container {
   display: flex;
@@ -21,9 +40,20 @@
   font-weight: 500;
   color: #475569;
 }
+@media screen and (max-width: 768px) {
+  .sort-by-container {
+    justify-content: flex-start;
+  }
+}
 .sort-by-icon {
   height: 35px;
   width: 30px;
+}
+@media screen and (max-width: 768px) {
+  .sort-by-icon {
+    height: 25px;
+    width: 25px;
+  }
 }
 .sort-by-select {
   font-size: 15px;
@@ -32,8 +62,18 @@
   border: none;
   font-weight: 600;
 }
+@media screen and (max-width: 768px) {
+  .sort-by-select {
+    font-size: 12px;
+  }
+}
 .select-option {
   font-size: 15px;
   color: #000000;
   font-weight: 400px;
+}
+@media screen and (max-width: 768px) {
+  .select-option {
+    font-size: 12px;
+  }
 }

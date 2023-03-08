@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -14,14 +17,26 @@
   width: 50px;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .nav-logo {
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+  }
+}
 .nav-title {
   font-family: DM Sans;
   font-style: italic;
   font-weight: bold;
   font-size: 24px;
-  line-height: 32px;
   color: #f7931e;
   text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .nav-title {
+    font-size: 15px;
+  }
 }
 .nav-menu {
   display: flex;
@@ -40,12 +55,16 @@
   font-weight: bold;
   font-size: 12px;
   color: #ffffff;
-  height: 30px;
-  width: 90px;
+  padding: 15px;
   background-color: #f7931e;
   border-radius: 4px;
   border: none;
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .logout-btn {
+    padding: 10px;
+  }
 }
 .nav-link {
   color: #f7931e;

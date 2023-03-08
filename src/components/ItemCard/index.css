@@ -6,6 +6,11 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+  .item-card {
+    width: 100%;
+  }
+}
 .item-details {
   margin-left: 10px;
 }
@@ -14,8 +19,18 @@
   width: 250px;
   border-radius: 8px;
 }
+@media screen and (max-width: 768px) {
+  .item-image {
+    width: 200px;
+  }
+}
 .item-name {
   font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+  .item-name {
+    font-size: 12px;
+  }
 }
 .item-cost {
   font-size: 13px;

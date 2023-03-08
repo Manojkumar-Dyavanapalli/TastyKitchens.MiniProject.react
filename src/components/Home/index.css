@@ -5,6 +5,18 @@
   padding-right: 30px;
   font-family: 'Roboto';
 }
+@media screen and (max-width: 768px) {
+  .home-container {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+}
 .loader {
-  margin-left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 46%;
+  margin-bottom: 100px;
 }

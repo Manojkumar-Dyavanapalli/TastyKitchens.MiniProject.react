@@ -1,5 +1,7 @@
 .restaurants-container {
   display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: auto;
 }
@@ -14,5 +16,7 @@
   font-size: 13px;
 }
 .restaurants-loader-container {
-  margin-left: 52%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }

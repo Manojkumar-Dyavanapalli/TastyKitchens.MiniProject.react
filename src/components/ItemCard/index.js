@@ -22,6 +22,7 @@ class ItemCard extends Component {
         const onClickAddToCart = () => {
           this.setState({showCounter: true, quantity})
           addCartItem({...itemDetails, quantity})
+          // localStorage.setItem('addedProduct', JSON.stringify(itemDetails))
         }
 
         const onDecrement = () => {

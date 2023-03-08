@@ -1,4 +1,9 @@
 .carousel-image {
   height: 400px;
-  width: 100%;
+  width: 97%;
+}
+@media screen and (max-width: 768px) {
+  .carousel-image {
+    height: 200px;
+  }
 }

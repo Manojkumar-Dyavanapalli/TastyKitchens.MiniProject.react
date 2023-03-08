@@ -48,9 +48,9 @@ class Home extends Component {
     }
     const {carouselImagesData, isLoading} = this.state
     return (
-      <div className="home-container">
+      <div>
         <Header />
-        <ul className="carousel-container">
+        <ul>
           <Slider {...settings}>
             {isLoading
               ? this.renderLoadingView()

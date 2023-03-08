@@ -97,13 +97,12 @@ class RestaurantDetails extends Component {
             </div>
           </div>
         </ul>
-        <div className="items-section">
-          <ul className="items-container">
-            {itemsList.map(item => (
-              <ItemCard itemDetails={item} key={item.id} />
-            ))}
-          </ul>
-        </div>
+
+        <ul className="items-container">
+          {itemsList.map(item => (
+            <ItemCard itemDetails={item} key={item.id} />
+          ))}
+        </ul>
       </div>
     )
   }
